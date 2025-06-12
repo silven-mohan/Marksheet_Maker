@@ -62,3 +62,8 @@ This is a simple terminal-based C program designed to generate an intermediate (
    ```bash
    ./marksheet.exe
    ```  
+
+---
+
+## Updates
+-Added Pass/Fail Status based on cutoff marks for different subjects in different streams.
