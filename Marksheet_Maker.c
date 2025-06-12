@@ -2,6 +2,7 @@
 
 #include<stdio.h>
 #include<stdlib.h>
+#include<string.h>
 
 main()
 {
@@ -9,7 +10,7 @@ main()
 	int fl_II, eng_II, zoo_II, bot_II, civics_II, eco_II, com_II, hist_II, m_IIA, m_IIB, phy_II, che_II, total_II;
 	int chep, phyp, zoop, botp, total;
 	char htn[15];
-	char surname[8], pi[3], firstname[8], secondname[8], fname[20], mname[20], stream[4], fl[9];
+	char surname[8], pi[3], firstname[8], secondname[8], fname[20], mname[20], stream[4], fl[9], result[4];
 	char grade;
 	float percentage;
 	system("cls");
@@ -110,7 +111,15 @@ main()
 		{
 			grade='D';
 		}
-		printf("\t\t\t Result:%c Grade", grade);
+		if ((fl_I<35)||(fl_II<35)||(eng_I<35)||(eng_II<35)||(m_IA<26)||(m_IIA<26)||(m_IB<26)||(m_IIB<26)||(phy_I<21)||(phy_II<21)||(che_I<21)||(che_II<21)||(phyp<15)||(chep<15))
+		{
+			strcpy(result, "FAIL");
+		}
+		else
+		{
+			strcpy(result, "PASS");
+		}
+		printf("\t\t\t Result:%c Grade %s", grade, result);
 		printf("\n____________________________________________________________________________");	
 	}
 	else if(strcmp(stream, "BiPC")==0)
@@ -202,7 +211,15 @@ main()
 		{
 			grade='D';
 		}
-		printf("\t\t\t Result:%c Grade", grade);
+		if ((fl_I<35)||(fl_II<35)||(eng_I<35)||(eng_II<35)||(bot_I<21)||(bot_II<21)||(zoo_I<21)||(zoo_II<21)||(phy_I<21)||(phy_II<21)||(che_I<21)||(che_II<21)||(botp<21)||(zoop<21)||(phyp<21)||(chep<21))
+		{
+			strcpy(result, "FAIL");
+		}
+		else
+		{
+			strcpy(result, "PASS");
+		}
+		printf("\t\t\t Result:%c Grade %s", grade, result);
 		printf("\n____________________________________________________________________________");	
 	}
 	else if (strcmp(stream, "CEC")==0)
@@ -274,7 +291,15 @@ main()
 		{
 			grade='D';
 		}
-		printf("\t\t Result:%c Grade", grade);
+		if ((fl_I<35)||(fl_II<35)||(eng_I<35)||(eng_II<35)||(civics_I<35)||(civics_II<35)||(eco_I<35)||(eco_II<35)||(com_I<35)||(com_II<35))
+		{
+			result=="PASS";
+		}
+		else
+		{
+			result=="FAIL";
+		}
+		printf("\t\t Result:%c Grade %s", grade, result);
 		printf("\n____________________________________________________________________________");	
 	}
 	else if (strcmp(stream, "HEC")==0)
@@ -346,7 +371,15 @@ main()
 		{
 			grade='D';
 		}
-		printf("\t\t Result:%c Grade", grade);
+		if ((fl_I<35)||(fl_II<35)||(eng_I<35)||(eng_II<35)||(eco_I<35)||(eco_II<35)||(com_I<35)||(com_II<35)||(hist_I<35)||(hist_II<35))
+		{
+		  	strcpy(result, "FAIL");
+		}
+		else
+		{
+			strcpy(result, "PASS");
+		}
+		printf("\t\t Result:%c Grade %s", grade, result);
 		printf("\n____________________________________________________________________________");	
 	}
 	else
@@ -424,7 +457,15 @@ main()
 		{
 			grade='D';
 		}
-		printf("\t\t\t Result:%c Grade", grade);
+		if ((fl_I<35)||(fl_II<35)||(eng_I<35)||(eng_II<35)||(eco_I<35)||(eco_II<35)||(com_I<35)||(com_II<35)||(m_IA<26)||(m_IIA<26)||(m_IB<26)||(m_IIB<26))
+		{
+			strcpy(result, "FAIL");
+		}
+		else
+		{
+			strcpy(result, "PASS");
+		}
+		printf("\t\t\t Result:%c Grade %s", grade, result);
 		printf("\n____________________________________________________________________________");	
 	}	
 	
