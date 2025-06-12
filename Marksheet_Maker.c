@@ -26,7 +26,7 @@ main()
 	scanf("%s", &fname);
 	printf("Enter Student's Mother Name:");
 	scanf("%s", &mname);
-	printf("In which stream you had completed your Intermediate:(MPC/BiPC/CEC)");
+	printf("In which stream you had completed your Intermediate:(MPC/BiPC/CEC/HEC/MEC)");
 	scanf("%s", &stream);
 	if(strcmp(stream, "MPC")==0)
 	{
