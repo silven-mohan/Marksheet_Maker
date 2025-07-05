@@ -63,7 +63,9 @@ This is a simple terminal-based C program designed to generate an intermediate (
    ./marksheet.exe
    ```  
 
----
+## 📃License
+
+  See included [LICENSE](./LICENSE) file for more details.
 
 ## Updates
 -Added Pass/Fail Status based on cutoff marks for different subjects in different streams.
