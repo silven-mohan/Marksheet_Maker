@@ -37,15 +37,6 @@ This is a simple terminal-based C program designed to generate an intermediate (
 
 ---
 
-## ⚠️ Limitations
-
-- No input validation for mark ranges.
-- Not portable to Linux/macOS due to `system("cls")`.
-- Code repetition due to restricted use of advanced features.
-- No support for multiple student entries or file storage.
-
----
-
 ## ✍️ Author
 
 **Silven Mohan**  
