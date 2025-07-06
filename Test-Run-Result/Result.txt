@@ -97,10 +97,10 @@ ____________________________________________________________________________
  English-I 	:90			 English-II 	:90
  Math-IA 	:75			 Math-IIA 	:75
  Math-IB 	:75			 Math-IIB 	:75
- Economics-I 	:90			 Economics-II 	:90
- Commerce-I 	:90			 Commerce-II 	:90
+ Economics-I 	:50			 Economics-II 	:50
+ Commerce-I 	:50			 Commerce-II 	:50
 ____________________________________________________________________________
- Total 	:515 /470			 Total 	:510 /470
+ Total 	:435 /470			 Total 	:430 /470
 ____________________________________________________________________________
- Overall Marks:1025 /1000			 Result:A Grade PASS
+ Overall Marks:865 /1000			 Result:A Grade PASS
 ____________________________________________________________________________Do you want to continue?(Y/N)
