@@ -151,7 +151,7 @@ jobs:
       - name: Run the code
         run: |
           echo -e "Test Run Result:\n" > Test-Run-Result/Result.txt
-          ./FF < Input.txt >> Test-Run-Result/Result.txt
+          ./MM < Input.txt >> Test-Run-Result/Result.txt
 
       # Push Result to Repo
 
