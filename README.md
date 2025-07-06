@@ -1,4 +1,8 @@
 # Marsheet_Maker
+
+![CI](https://github.com/silven-mohan/Marksheet_Maker/actions/workflows/.github/workflows/main.yml/badge.svg)
+
+-----
 This is a simple terminal-based C program designed to generate an intermediate (Class 11–12) marksheet for students based on their stream. It only uses basic C constructs (`printf`, `scanf`, `if-else`, and `strcmp`) and demonstrates how conditional logic can handle multiple user scenarios cleanly.
 
 ---
