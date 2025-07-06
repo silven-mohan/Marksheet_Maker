@@ -1,0 +1,106 @@
+Test Run Result:
+
+Enter Student's Hall Ticket No.:Enter Student's Surname:Enter Student's First Name:Enter Student's Last Name:Enter Student's Father Name:Enter Student's Mother Name:In which stream you had completed your Intermediate:(MPC/BiPC/CEC/HEC/MEC)What is your First Language:(Sanskrit/Telugu/Hindi)Enter your First Year marks:
+Enter your Sanskrit-I marks:Enter your English-I marks:Enter your Math-IA marks:Enter your Math-IB marks:Enter your Physics-I marks:Enter your Chemistry-I marks:Now enter your Second Year Marks:
+Enter your Sanskrit-II marks:Enter your English-II marks:Enter your Math-IIA marks:Enter your Math-IIB marks:Enter your Physics-II marks:Enter your Chemistry-II marks:Enter your Practical marks in Physics:Enter your Practical marks in Chemistry:____________________________________________________________________________
+Hall Ticket No.	:25082110989
+Student Name	:Saint Peter John
+Father Name	:Saint John
+Mother Name	:Saint Mary
+____________________________________________________________________________
+ First Year:				 Second Year:
+ Sanskrit-I	:99			 Sanskrit-II	:90
+ English-I 	:95			 English-II 	:98
+ Math-IA 	:75			 Math-IIA 	:75
+ Math-IB 	:75			 Math-IIB 	:71
+ Physics-I 	:60			 Physics-II 	:58
+ Chemistry-I 	:57			 Chemistry-II 	:54
+____________________________________________________________________________
+ Total 	:461 /470			 Total 	:446 /470
+____________________________________________________________________________
+ Practical Marks:
+ Physics 	:30
+ Chemistry 	:30
+____________________________________________________________________________
+ Overall Marks:967 /1000			 Result:A Grade PASS
+____________________________________________________________________________Do you want to continue?(Y/N)Enter Student's Hall Ticket No.:Enter Student's Surname:Enter Student's First Name:Enter Student's Last Name:Enter Student's Father Name:Enter Student's Mother Name:In which stream you had completed your Intermediate:(MPC/BiPC/CEC/HEC/MEC)What is your First Language:(Sanskrit/Telugu/Hindi)Enter your First Year marks:
+Enter your Telugu-I marks:Enter your English-I marks:Enter your Botany-I marks:Enter your Zoology-I marks:Enter your Physics-I marks:Enter your Chemistry-I marks:Now enter your Second Year Marks:
+Enter your Telugu-II marks:Enter your English-II marks:Enter your Botany-II marks:Enter your Zoology-II marks:Enter your Physics-II marks:Enter your Chemistry-II marks:Enter your Practical Marks in Botany:Enter your Practical Marks in Zoology:Enter your Practical marks in Physics:Enter your Practical marks in Chemistry:____________________________________________________________________________
+Hall Ticket No.	:25082110989
+Student Name	:Saint Peter John
+Father Name	:Saint John
+Mother Name	:Saint Mary
+____________________________________________________________________________
+ First Year:				 Second Year:
+ Telugu-I 	:99			 Telugu-II 	:99
+ English-I 	:95			 English-II 	:90
+ Botany-I 	:60			 Botany-II 	:58
+ Zoology-I 	:60			 Zoology-II 	:54
+ Physics-I 	:60			 Physics-II 	:55
+ Chemistry-I 	:60			 Chemistry-II 	:55
+____________________________________________________________________________
+ Total 	:434 /440			 Total 	:411 /440
+____________________________________________________________________________
+ Practical Marks:
+ Botany 	:30
+ Zoology 	:30
+ Physics 	:30
+ Chemistry 	:30
+____________________________________________________________________________
+ Overall Marks:965 /1000			 Result:A Grade PASS
+____________________________________________________________________________Do you want to continue?(Y/N)Enter Student's Hall Ticket No.:Enter Student's Surname:Enter Student's First Name:Enter Student's Last Name:Enter Student's Father Name:Enter Student's Mother Name:In which stream you had completed your Intermediate:(MPC/BiPC/CEC/HEC/MEC)What is your First Language:(Sanskrit/Telugu/Hindi)Enter your First Year marks:
+Enter your Hindi-I marks:Enter your English-I marks:Enter your Civics-I marks:Enter your Economics-I marks:Enter your Commerce-I marks:Now enter your Second Year Marks:
+Enter your Hindi-II marks:Enter your English-II marks:Enter your Civics-II marks:Enter your Economics-II marks:Enter your Commerce-II marks:____________________________________________________________________________
+Hall Ticket No.	:25082110989
+Student Name	:Saint Peter John
+Father Name	:Saint John
+Mother Name	:Saint Mary
+____________________________________________________________________________
+ First Year:				 Second Year:
+ Hindi-I 	:90			 Hindi-II 	:90
+ English-I 	:89			 English-II 	:90
+ Civics-I 	:90			 Civics-II 	:90
+ Economics-I 	:90			 Economics-II 	:90
+ Commerce-I 	:90			 Commerce-II 	:90
+____________________________________________________________________________
+ Total 	:449 /500			 Total 	:450 /500
+____________________________________________________________________________
+ Overall Marks:899 /1000		 Result:A Grade PASSSaint
+____________________________________________________________________________Do you want to continue?(Y/N)Enter Student's Hall Ticket No.:Enter Student's Surname:Enter Student's First Name:Enter Student's Last Name:Enter Student's Father Name:Enter Student's Mother Name:In which stream you had completed your Intermediate:(MPC/BiPC/CEC/HEC/MEC)What is your First Language:(Sanskrit/Telugu/Hindi)Enter your First Year marks:
+Enter your Telugu-I marks:Enter your English-I marks:Enter your History-I marks:Enter your Economics-I marks:Enter your Commerce-I marks:Now enter your Second Year Marks:
+Enter your Telugu-II marks:Enter your English-II marks:Enter your History-II marks:Enter your Economics-II marks:Enter your Commerce-II marks:____________________________________________________________________________
+Hall Ticket No.	:25082110989
+Student Name	:Saint Peter John
+Father Name	:Saint John
+Mother Name	:Saint Mary
+____________________________________________________________________________
+ First Year:				 Second Year:
+ Telugu-I 	:90			 Telugu-II 	:90
+ English-I 	:90			 English-II 	:90
+ History-I 	:90			 History-II 	:90
+ Economics-I 	:90			 Economics-II 	:90
+ Commerce-I 	:90			 Commerce-II 	:90
+____________________________________________________________________________
+ Total 	:450 /500			 Total 	:450 /500
+____________________________________________________________________________
+ Overall Marks:900 /1000		 Result:A Grade PASS
+____________________________________________________________________________Do you want to continue?(Y/N)Enter Student's Hall Ticket No.:Enter Student's Surname:Enter Student's First Name:Enter Student's Last Name:Enter Student's Father Name:Enter Student's Mother Name:In which stream you had completed your Intermediate:(MPC/BiPC/CEC/HEC/MEC)What is your First Language:(Sanskrit/Telugu/Hindi)Enter your First Year marks:
+Enter your Sanskrit-I marks:Enter your English-I marks:Enter your Math-IA marks:Enter your Math-IB marks:Enter your Economics-I marks:Enter your Commerce-I marks:Now enter your Second Year Marks:
+Enter your Sanskrit-II marks:Enter your English-II marks:Enter your Math-IIA marks:Enter your Math-IIB marks:Enter your Economics-II marks:Enter your Commerce-II marks:____________________________________________________________________________
+Hall Ticket No.	:25082110989
+Student Name	:Saint Peter John
+Father Name	:Saint John
+Mother Name	:Saint Mary
+____________________________________________________________________________
+ First Year:				 Second Year:
+ Sanskrit-I	:95			 Sanskrit-II	:90
+ English-I 	:90			 English-II 	:90
+ Math-IA 	:75			 Math-IIA 	:75
+ Math-IB 	:75			 Math-IIB 	:75
+ Economics-I 	:90			 Economics-II 	:90
+ Commerce-I 	:90			 Commerce-II 	:90
+____________________________________________________________________________
+ Total 	:515 /470			 Total 	:510 /470
+____________________________________________________________________________
+ Overall Marks:1025 /1000			 Result:A Grade PASS
+____________________________________________________________________________Do you want to continue?(Y/N)
