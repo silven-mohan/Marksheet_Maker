@@ -1,0 +1,172 @@
+
+name: C Build and Run
+
+on:
+  push:
+    paths:
+      - '**/*.c'
+      - '**/*.yml'
+    branches:
+      - main
+    tags-ignore:
+      - '**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Install GCC
+        run: sudo apt-get install -y build-essential
+
+      # Compile the code
+
+      - name: Compile the Code
+        run: gcc Marksheet_Maker.c -o MM
+
+      # Run Values
+
+      - name: Run Values to Input.txt
+        run: |
+          cat <<EOF > Input.txt
+          25082110989
+          Saint
+          Peter
+          John
+          John
+          Mary
+          MPC
+          Sanskrit
+          99
+          95
+          75
+          75
+          60
+          57
+          90
+          98
+          75
+          71
+          58
+          54
+          30
+          30
+          Y
+          25082110989
+          Saint
+          Peter
+          John
+          John
+          Mary
+          BiPC
+          Telugu
+          99
+          95
+          60
+          60
+          60
+          60
+          99
+          90
+          58
+          54
+          55
+          55
+          30
+          30
+          30
+          30
+          Y
+          25082110989
+          Saint
+          Peter
+          John
+          John
+          Mary
+          CEC
+          Hindi
+          90
+          89
+          90
+          90
+          90
+          90
+          90
+          90
+          90
+          90
+          Y
+          25082110989
+          Saint
+          Peter
+          John
+          John
+          Mary
+          HEC
+          Telugu
+          90
+          90
+          90
+          90
+          90
+          90
+          90
+          90
+          90
+          90
+          Y
+          25082110989
+          Saint
+          Peter
+          John
+          John
+          Mary
+          MEC
+          Sanskrit
+          95
+          90
+          75
+          75
+          90
+          90
+          90
+          90
+          75
+          75
+          90
+          90
+          N
+          EOF
+
+      # Run the code
+
+      - name: Run the code
+        run: |
+          echo -e "Test Run Result:\n" > Test-Run-Result/Result.txt
+          ./FF < Input.txt >> Test-Run-Result/Result.txt
+
+      # Push Result to Repo
+
+      - name: Upload Marksheet Maker Test Run Results to Repo
+        uses: actions/upload-artifact@v4
+        with:
+          name: Push Marksheet Maker Test-Run-Result
+          path: Test-Run-Result/Result.txt
+      - name: Push Result.txt to Repo
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${TOKEN}@github.com/${{ github.repository }}
+          git add Test-Run-Result/Result.txt
+          git commit -m "Update Marksheet Maker output [skip ci]" || echo "No changes to commit"
+          git push
